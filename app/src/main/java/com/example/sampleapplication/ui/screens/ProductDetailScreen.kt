@@ -21,7 +21,7 @@ fun ProductDetailScreen(product: Product?) {
             contentDescription = product.title,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(300.dp)
+                .height(350.dp)
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = product.title, style = MaterialTheme.typography.headlineMedium)
